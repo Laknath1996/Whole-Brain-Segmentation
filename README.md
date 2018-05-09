@@ -4,3 +4,32 @@ The objective of this project is to use a deep learning approach to segment the 
 The following image is one of the images used to train the network. 
 
 ![alt text](https://github.com/Laknath1996/MRI-Brain-Segmentation/blob/master/BRAIN_unet/Original.jpg?raw=true)
+
+The pixel wise labelled mask for the above image is state below. 
+
+![alt text](https://github.com/Laknath1996/MRI-Brain-Segmentation/blob/master/BRAIN_unet/mask.jpg?raw=true)
+
+The U-Net architecture that was used is stated below. 
+U-Net paper can be found here : https://arxiv.org/abs/1505.04597
+
+![alt text](https://github.com/Laknath1996/MRI-Brain-Segmentation/blob/master/BRAIN_unet/BRAINunet_Archicture.png?raw=true)
+
+The following hyperparameters were used. 
+
+mini-batch size  : 4
+number of epochs : 40
+learning rate    : 10^(-4)
+optimizer        : Adam
+
+The model was trained with the use of a GPU.
+
+A test image with its predicted brain mask is stated below. 
+
+![alt text](https://raw.githubusercontent.com/Laknath1996/MRI-Brain-Segmentation/master/BRAIN_unet/img_with_mask%2021.bmp)
+
+
+
+
+
+
+
