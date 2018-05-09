@@ -3,4 +3,4 @@ The objective of this project is to use a deep learning approach to segment the 
 
 The following image is one of the images used to train the network. 
 
-
+![alt text]()
