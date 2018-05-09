@@ -16,9 +16,9 @@ U-Net paper can be found here : https://arxiv.org/abs/1505.04597
 
 The following hyperparameters were used. 
 
-mini-batch size  : 4
-number of epochs : 40
-learning rate    : 10^(-4)
+mini-batch size  : 4,
+number of epochs : 40,
+learning rate    : 10^(-4),
 optimizer        : Adam
 
 The model was trained with the use of a GPU.
