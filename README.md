@@ -3,4 +3,4 @@ The objective of this project is to use a deep learning approach to segment the 
 
 The following image is one of the images used to train the network. 
 
-![alt text]()
+![alt text](https://github.com/Laknath1996/MRI-Brain-Segmentation/blob/master/BRAIN_unet/Original.jpg?raw=true)
