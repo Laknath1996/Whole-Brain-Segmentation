@@ -1,6 +1,8 @@
 # MRI-Brain-Segmentation
 The objective of this project is to use a deep learning approach to segment the brain from the MRI images. A U-Net based architecture was used for the segmentation task. A dataset of 40 512 by 512 MRI images were used and using data augmentation the dataset was expanded up to 320 images. The augmentation procedure was to take one of the above mentioned 40 images, rotate it in 90, 180, 270 degrees and do the same for a flipped version of the same image. Hence, from one image it was possible to generate 8 images altogether. 240 images were used for the training, 60 images were used for the vaidation and 20 images were used as the test set.
 
+**Note : This project is still under development and the model parameters, dataset augmentation techniques and weights may be updated in the future.**
+
 The following image is one of the images used to train the network. 
 
 ![alt text](https://github.com/Laknath1996/MRI-Brain-Segmentation/blob/master/BRAIN_unet/Original.jpg?raw=true)
@@ -22,6 +24,9 @@ learning rate    : 10^(-4),
 optimizer        : Adam
 
 The model was trained with the use of a GPU.
+
+The dataset (.mat format) can be found at :  https://drive.google.com/open?id=1YMpQPYITykcPh_Bk3aG48yEO38SDClFv
+The weights from the training can be found at : https://drive.google.com/open?id=1mjYzsuYSfP8Ldb6T0rX3wYSnw8V2ykoC
 
 A test image with its predicted brain mask is stated below. 
 
